@@ -1,6 +1,6 @@
 " pddl.vim - Syntax highlighting for Planning Domain Definition Language
 " (PDDL) files
-" 
+"
 " Maintainer: Pontus Persson <https://pontus-persson.se/>
 " Latest Revision: 2016-09-26
 
@@ -28,6 +28,6 @@ syn match pddlKeyword ':\(requirements\|types\|constants\|predicates\|action\|du
 let b:current_syntax = "pddl"
 highlight def link pddlBuiltin Function
 highlight def link pddlKeyword Keyword
-highlight def link pddlUses Constant 
+highlight def link pddlUses Constant
 highlight def link pddlVariable Type
-highlight def link pddlComment Comment 
+highlight def link pddlComment Comment
