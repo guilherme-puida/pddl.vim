@@ -29,3 +29,5 @@ highlight def link pddlKeyword Keyword
 highlight def link pddlUses Constant
 highlight def link pddlVariable Type
 highlight def link pddlComment Comment
+
+set commentstring=;%s
