@@ -11,9 +11,7 @@ endif
 
 syn match pddlVariable '?\(\w\|[0-9]\|_\|-\)\+'
 
-syn region pddlComment start=/\s*;;/ end=/$/
-
-
+syn region pddlComment start=/\s*;/ end=/$/
 
 syn keyword pddlBuiltin define and or not problem domain either exists forall
 syn keyword pddlBuiltin when assign scale-up scale-down increase decrease start
